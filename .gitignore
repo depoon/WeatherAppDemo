@@ -1,0 +1,8 @@
+Pod file.lock
+Pods/**
+
+Config/PackagedConfig.plist
+
+WeatherApp.xcworkspace/contents.xcworkspacedata
+
+WeatherApp.xcworkspace/xcuserdata/**

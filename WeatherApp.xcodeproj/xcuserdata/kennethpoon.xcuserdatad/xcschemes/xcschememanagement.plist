@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>WeatherApp.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>WeatherAppNativeTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>WeatherAppTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>WeatherAppUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1C38C4F81D3010D900B92CE8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C38C5061D30120C00B92CE8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C38C5141D30125D00B92CE8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5BD2BA191B00C2DE001FC700</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5BD2BA321B00C2DE001FC700</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

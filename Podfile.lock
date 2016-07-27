@@ -1,0 +1,72 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - JAMTestHelper (0.0.4)
+  - Kiwi (2.4.0)
+  - MBProgressHUD (1.0.0)
+  - OHHTTPStubs (4.8.0):
+    - OHHTTPStubs/Default (= 4.8.0)
+  - OHHTTPStubs/Core (4.8.0)
+  - OHHTTPStubs/Default (4.8.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (4.8.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (4.8.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (4.8.0)
+  - XCTest-Gherkin (0.6.0):
+    - XCTest-Gherkin/Core (= 0.6.0)
+  - XCTest-Gherkin/Core (0.6.0)
+  - XCTest-Gherkin/Native (0.6.0):
+    - XCTest-Gherkin/Core
+
+DEPENDENCIES:
+  - AFNetworking (= 2.6.3)
+  - JAMTestHelper (from `https://github.com/depoon/JAMTestHelper.git`, branch `AddTimeouts`)
+  - Kiwi
+  - MBProgressHUD
+  - OHHTTPStubs (~> 4.0)
+  - XCTest-Gherkin
+  - XCTest-Gherkin/Native
+
+EXTERNAL SOURCES:
+  JAMTestHelper:
+    :branch: AddTimeouts
+    :git: https://github.com/depoon/JAMTestHelper.git
+
+CHECKOUT OPTIONS:
+  JAMTestHelper:
+    :commit: 57c0a8de406c19cfe772b5a89f5caa359462ce86
+    :git: https://github.com/depoon/JAMTestHelper.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  JAMTestHelper: a8cf6a809a0a08276abd9aa93bab3e7aa858c971
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  OHHTTPStubs: b393565822317305b87a1440d4c7aff131679f66
+  XCTest-Gherkin: 95c68059ae1b6a84bc4e30958df6cdbc11d3e456
+
+COCOAPODS: 0.39.0
