@@ -19,3 +19,14 @@ target 'WeatherAppUITests' do
  pod 'JAMTestHelper', :git => 'https://github.com/depoon/JAMTestHelper.git', :branch => 'AddTimeouts'
 end
 
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+    	if target.name == "JAMTestHelper" || target.name == "XCTest-Gherkin"
+			config.build_settings['SWIFT_VERSION'] = '2.3'
+			puts "- #{target.name} set to 2.3"
+    	end
+	end
+  end
+end
+
